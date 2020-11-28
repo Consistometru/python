@@ -20,7 +20,7 @@ def calculate(s):
             return operators[operator](calculate(left), calculate(right))
 file = open("history.txt", "w")
 input1 = input("continue? yes / no: ")
-while input1 == "da":
+while input1 == "yes":
     calc = input("Type calculation:\n")
     print("Answer: " + str(calculate(calc)))
     file.write(calc + "Answer: " + str(calculate(calc)))
