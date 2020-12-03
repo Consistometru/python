@@ -104,7 +104,7 @@ while input1 == "da":
             try:
                 baza = (int(input("baza in care e scris nr1: ")))
                 nr2 = (int(input("baza in care se transforma: ")))
-                if (baza < 10 and nr2 < baza) or (baza == 2 and baza != 10):                    
+                if (baza < 10 and nr2 < baza) or (baza == 2 and nr2 != 10):                    
                     print('trebuie trecut prin baza 10 inainte de conversia in alta baza ')
                     input1 = input("continuati? da / nu: ")
                 else :
