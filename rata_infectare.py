@@ -27,6 +27,7 @@ i=1
 z=int(input('cate zile vrei?:'))
 while i<=z :
     print(div[i].getText())
+    print("cazuri:" + str(data[len(data)-i]['Data']))
     print("cazuri:" + str(data[len(data)-i]['Cazuri']))
     print("decese:" + str(data[len(data)-i]['Morti pe zi']))
     i=i+1
