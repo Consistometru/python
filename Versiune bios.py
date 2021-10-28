@@ -5,8 +5,8 @@ url = "https://pcsupport.lenovo.com/ro/en/api/v4/downloads/drivers?productId=lap
 r = requests.get(url)
 
 data = r.json()
-name = data['body']['DownloadItems'][4]['Files'][1]['Version']
-down = data['body']['DownloadItems'][4]['Files'][1]['URL']
+name = data['body']['DownloadItems'][3]['Files'][1]['Version']
+down = data['body']['DownloadItems'][3]['Files'][1]['URL']
 print(name +" link-> "+ down)
 
 input()
