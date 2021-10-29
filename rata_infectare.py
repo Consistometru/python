@@ -30,8 +30,8 @@ while i<=z :
     print("data:" + str(data[len(data)-i]['Data']))
     print("cazuri:" + str(data[len(data)-i]['Cazuri']))
     print("decese:" + str(data[len(data)-i]['Morti pe zi']))
-    i=i+1
     total = total + data[len(data)-i]['Morti pe zi']
+    i=i+1
     print()
 
 print('total decese pentru ' + str(z) + ' zile = ' + str(total))
