@@ -22,7 +22,7 @@ if w:
     file = open("history.txt", "w")
 input1 = input("continue? yes / no: ")
 while input1 == "yes":
-    calc = input("Type calculation:\n")
+    calc = input("Type calculation: (+,-,*,/,//,^,%) \n")
     print("Answer: " + str(calculate(calc)))
     if w:
         file.write(calc + "Answer: " + str(calculate(calc)))
