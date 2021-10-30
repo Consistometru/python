@@ -7,7 +7,7 @@ operators = {
   '*': mul,
   '/': truediv,
   '^': pow,
-  '//': floordiv,
+  '#': floordiv,
   '%': mod
 }
 
