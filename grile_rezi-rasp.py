@@ -33,7 +33,7 @@ i=0
 raspuns =['','','','','']
 corect =['','','','','']
 data = response.json()
-select_int = [*range(1,201)]
+select_int = [*range(1,len(data['data']['questions_array']))]
 select = []
 for item in select_int:
     select.append(str(item))
